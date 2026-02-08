@@ -1,8 +1,8 @@
 -- premake5.lua
-workspace("New Project")
-architecture("x64")
+workspace("CleanMe")
+architecture("ARM64")
 configurations({ "Debug", "Release", "Dist" })
-startproject("App")
+startproject("clnr")
 
 -- Workspace-wide build options for MSVC
 filter("system:windows")
@@ -15,4 +15,3 @@ include("Core/Build-Core.lua")
 group("")
 
 include("App/Build-App.lua")
-
