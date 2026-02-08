@@ -1,6 +1,7 @@
 # Directories
 .vs/
 Binaries/
+read/
 
 # Files
 *.vcxproj
