@@ -10,6 +10,7 @@ read/
 *.sln
 *.log
 Makefile
+.DS_Store
 
 # Exclude
 !Vendor/Binaries
